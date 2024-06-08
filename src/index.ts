@@ -9,7 +9,7 @@ const client = new PrismaClient();
 
 app.get("/", (req, res) => {
     res.json({
-        message: "Healthy server"
+        message: "Healthy data server"
     })
 })
 
